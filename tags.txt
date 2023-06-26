@@ -1,0 +1,101 @@
+Datenanbindung		
+Systemanbindung		Die Ist- und Zielwerte von Kennzahlen sollen aus verschiedenen Systemen importiert werden können
+	Office	Kennzahlen sollen aus Officeprogrammen importiert werden können.
+	SAP	Kennzahlen sollen aus SAP importiert werden können.
+	REST	Kennzahlen sollen aus REST-Schnittstellen importiert werden können.
+	OPC UA	Kennzahlen sollen über OPC UA importiert werden können.
+	SQL	Kennzahlen sollen über SQL-Queries importiert werden können.
+Dynamische Zielwerte		Auch der Zielwert von Kennzahlen soll aus Datenquellen gezogen werden können
+Kennzahlenvisualisierung		
+Aggregation		Das System muss Werte aus verschiedenen Datenquellen berechnen können.
+	Berechnete Kennzahlen	Kennzahlen aus mehreren Einzelwerten bestimmen (z.B. OEE)
+	Aggregation in Hierarchie	Aggregation von Werten mehrerer Teams für höhere Ebenen durch Bildung von Summen, Durchschnitten oder Weitergabe des Maximums.
+Buchstaben-visualisierungen		Monatsübersichten in Form von Buchstaben und einem Sicherheitskreuz müssen unterstützt werden.
+Zahlenwert		Einzelne Zahlenwerte müssen unterstützt werden.
+Liniendiagramm		Liniendiagramme müssen unterstützt werden.
+Balkendiagramm		Balkendiagramme müssen unterstützt werden.
+Säulendiagramm		Säulendiagramme müssen unterstützt werden.
+Tortendiagramm		Tortendiagramme müssen unterstützt werden.
+Erkennen von Abweichungen		Kennzahlen sollen sich automatisch einfärben, wenn Grenzwerte verletzt werden
+Reportfunktion		Es sollen Ansichten erstellt werden können, die Kennzahlen über einen wählbaren Zeitraum aggregiert visualisieren.
+Kennzahleninteraktionen		
+Manuelle Eingabe		Bearbeiten von Kennzahlen muss direkt im System möglich sein.
+	PC	Manuelle Eingabe von Werten am PC mit guter Softwareergonomie möglich.
+	mobile Endgeräte	Manuelle Eingabe von Werten am PC mit guter Softwareergonomie möglich.
+	Shopfloor-Board	Manuelle Eingabe von Werten am PC mit guter Softwareergonomie möglich.
+	Klickbare Statusanzeigen	Ampeln und Monatsübersichten sollen direkt klickbar sein.
+Drill-Down		Aus höheren Ebenen muss ein Drill-Down sein.
+	Untergeordnete Kennzahlen	Blick in Kennzahlen aus untergeordneten Teams.
+	Grundwerte	Blick in Grundwerte von berechneten Kennzahlen.
+Logging		Aktivitäten sollen geloggt werden.
+	Zeitpunkt	Zeitpunkt von Aktualisierungen soll geloggt werden.
+	Bearbeiter	Bearbeiter von Aktualisierungen soll geloggt werden.
+Kommentar zu Kennzahlen		Einzelne Werte sollen mit Kommentar versehen werden können.
+Abweichungs-benachichtigung		Für kritische Kennzahlen muss das Tool zur Erstellung von Abweichungen anhalten
+Abweichungsmanagement		
+Bezug zu Kennzahlen		Abweichungen, Maßnahmen und Problemlösungen müssen auf einzelne Kennzahlenabweichungen bezogen werden können.
+Anhänge		Abweichungen, Maßnahmen und Problemen müssen Daten (pdf, Bilder, Videos) angehängt werden können.
+Zuordnung von Maßnahmen		Die Zuordnung und Sortierung von Maßnahmen muss für verschiedene Dimensionen möglich sein.
+	Verantwortlich	Es muss ein Verantwortlicher definiert werden.
+	Ersteller	Der Ersteller wird gespeichert.
+	Fälligkeit	Fälligkeit wird gespeichert.
+	Maschine	Zuordnung zu Maschine möglich.
+	Produkt	Zuordnung zu Produkt möglich.
+	Fehlergrund	Kategorisierung von Fehlergründen möglich.
+Problemlösung		Die systematische Problemlösung soll unterstützt werden.
+	Problem-beschreibung	Es soll die vollständige und aussagefähige Problembeschreibung unterstützt werden.
+	Ursachenfindung	Das Ishikawadiagramm soll erstellt werden können.
+	Root-Cause Analyse	Die 5-Why Methode soll unterstützt werden.
+	Nachverfolgung der Maßnahmen	Die PDCA-Maßnahmen sollen zu einer Problemlösung zugeordnet werden können.
+	Fortschrittsanzeige	Der Fortschritt einer Problemlösung soll schnell ersichtlich sein.
+	Konfigurierbarkeit	Ausgestaltung der Problemlösung soll konfigurierbar sein
+Wissensspeicher		Alle Abweichungen, Maßnahmen und Probleme werden in einem durchsuch- und filterbaren Speicher festgehalten.
+Synchronisation		Abweichungsbearbeitungen sollen mit anderen Systemen synchronisiert werden können.
+Meetingunterstützung		
+Meetingdarstellung		Es muss eine Visualisierung von Kennzahlen, Maßnahmen und Problemen geben, an der die SFM-Besprechung durchgeführt werden kann
+Agendaunterstützung		Die Einhaltung einer konfigurierbaren Agenda muss unterstützt werden.
+Eskalation		Abweichungen, Maßnahme oder Probleme müssen einfach eskaliert werden können.
+	Rückmeldung	Änderungen im Status soll  das erstellende Team einsehen können.
+News		News müssen erstellt werden können, die bei ausgewählten Teams über einen einstellbaren Zeitraum angezeigt werden.
+Diskussionspunkte		Informationen sollen als ausgewählte Teams zur Diskussion gestellt werden können. Eine erfolgte Diskussion wird über das System quittiert.
+Individuelle Ansicht		
+Eigene Aufgaben		In einer individuellen Ansicht müssen alle eigenen Aufgaben visualisiert werden.
+Eigene Kennzahlen		In einer individuellen Ansicht muss ein eigenes Kennzahlendashboard konfiguriert werden können.
+Rollenbasierter Zugriff		Benutzer können verschiedenen Rollen zugewiesen werden. Diese haben unterschiedliche Zugriffsrechte auf Kennzahlen, Maßnahmen und Systemeinstellungen.
+Prozesskontrolle		
+Kurzaudits		Es sollen Kurzaudits verwaltet werden, mit denen Führungskräfte die Einhaltung von Prozessanweisungen regelmäßig überprüfen.
+Wiederholtätigkeiten		Die Erledigung von wiederholenden Tätigkeiten soll verwaltet werden können.
+Bedienung		
+Sprache		Deutsch und Englisch müssen unterstützt werden.
+Schulung		Es steht eine Online-Schulung zur Verfügung, mit der das System rollenspezifisch erklärt wird.
+Einfache Bedienbarkeit		Das System muss durch Shopfloorbeschäftigte einfach zu bedienen sein. Das gilt insbesondere für das Aktualisieren von Kennzahlen, das Aufnehmen von Abweichungen und die Bearbeitung von Maßnahmen und Problemen.
+Anpassungsmöglichkeiten		Die Definition und Anbindung von Kennzahlen sowie die Nutzerverwaltung muss ohne Support durchführbar sein.
+Analytics		
+Kennzahlenprognose		Das System soll Vorhersagen aus aktuellen Werten machen können.
+	Vorhersage Zielerreichung	Aus den aktuellen Stückzahlen soll prognostiziert werden, ob das Schichtziel erreicht werden kann.
+	Vertikale Prognose	Anhand von Maschinendaten soll prognostiziert werden, ob Qualitäts- und Produktivitätsziele erreicht werden.
+	Horizontale Prognose	Es soll gewarnt werden, wenn in vorgelagerten Prozessen Abweichungen entstehen, die sich wahrscheinlich auf nachgelagerte Prozesse auswirken.
+Pareto-Analyse		Es sollen die häufigsten Abweichungen identifiziert werden können, um Problemlösungsprozesse zu priorisieren.
+	über Kategorien	Die Paretoanalyse soll über einstellbare Kategorien erfolgen.
+	mit Schweregrade	Die Paretoanalyse soll die Summe von Kosten oder Stördauern innerhalb einer Kategorie berücksichtigen können.
+	über NLP	Die Paretoanalyse soll direkt aus den Volltextdaten erstellt werden.
+Empfehlungen		Relevante Informationen und Ansprechpartner sollen auf Basis einer Problembeschreibung Empfohlen werden.
+	Ansprechpartner	Personen, die ähnliche Probleme gelöst haben, sollen empfohlen werden.
+	ähnliche Probleme	Probleme mit ähnlichem Inhalt sollen empfohlen werden.
+	relevante Datenblätter	Datenblätter, Arbeitsanweisungen und Prozessbeschreibungen zu den betroffenen Komponenten oder Prozessen sollen empfohlen werden.
+Bereitstellung		
+Webbasierte Anwendung		Das System muss webbasiert sein und auf verschiedene Displaygrößen skalieren.
+	Produktions-bildschirm	Bearbeitung auf Smartboards muss möglich sein.
+	PC	Bearbeitung an PCs muss möglich sein.
+	Tablet	Bearbeitung auf Tablets soll möglich sein.
+	Handy	Bearbeitung auf Handys soll möglich sein.
+Skalierbar		Die Architektur muss konzernweit einsetzbar sein.
+Betriebsart		Der Betrieb muss in einer Private Cloud erfolgen können.
+Betriebsart		Der Betrieb muss On Premise erfolgen können.
+Updates		Wartungen erfolgen remote, ohne Ausfall des Systems.
+	Beständigkeit	Unternehmensspezifische Konfigurationen bleiben nach Updates bestehen.
+Latenzzeit		Aktualisierungen erfolgen unter 3 Sekunden
+Verschlüsselung		
+	Kommunikation	Die Kommunikation soll TLS-verschlüsselt sein.
+	APIs	API Kommunikation ist verschlüsselt (z.B. https)
+Sicherheitsstandards		Das System ist konform mit ISO 27007 und ITIL.
